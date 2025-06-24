@@ -1,0 +1,148 @@
+body {
+    background: #131518;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+    
+}
+
+.card {
+    background-color: #1A202A;
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card {
+    display: none;
+}
+
+.card .img-star {
+    background-color: #282E38;
+    border-radius: 50px;
+    padding: 16px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+
+}
+
+.card h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.card p {
+    color: #959eac;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0px;
+    
+}
+
+.card .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li button {
+    background-color: #282E38;
+    color:#959eac ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.selected {
+    background-color: #fb7413;
+    color: #ffffff;
+}
+
+.card li button:hover{
+    background-color: #ffffff;
+    color: #131518;
+    cursor: pointer;
+}
+
+.card form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card form button {
+    text-transform: uppercase;
+    height: 45px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #fb7413;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.card form button:hover {
+    background-color: #ffffff;
+    color: #fb7413;
+    cursor: pointer;
+}
+
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.thank-you img {
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+.thank-you span{
+    background-color: #282E38 ;
+    color: #fb7413;
+    border-radius: 30px;
+    width: 195px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.thank-you h2{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.thank-you p {
+    color: #959eac;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    width: 340px;
+}
+
+.active{
+    display: flex;
+}
+
+
